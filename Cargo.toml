@@ -1,0 +1,11 @@
+[package]
+name = "simulate_trees"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+rand_distr = "0.4.3"
+
+[dependencies.newick_parser]
+path = "../newick_parser"
